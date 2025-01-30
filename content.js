@@ -36,7 +36,7 @@ function runOyeClicker() {
 if (!running || paused) return;
 
 // Open a new tab with the search URL
-chrome.tabs.create({ url: "https://www.google.com/search?q=OVS+Online+School" }, (tab) => {
+chrome.tabs.create({ url: "https://www.google.com/search?q=Online+courses+in+CanSTEM" }, (tab) => {
   // Wait for the search results to load and then click the first visible link
   setTimeout(() => {
     chrome.scripting.executeScript({

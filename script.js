@@ -26,5 +26,5 @@ function stopOyeClicking() {
 }
 
 // Usage Example (Run in Browser Console)
-// startOyeClicking('a[href*="ontariovirtualschool.ca"]', 2000);  // Click every 2 seconds
+// startOyeClicking('a[href*="canstemeducation.com"]', 2000);  // Click every 2 seconds
 // stopOyeClicking(); // To stop clicking
