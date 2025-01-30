@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Oye Clicker",
+  "version": "1.0",
+  "description": "An auto-clicker extension developed by Mahak Patel. All rights reserved.",
+  "permissions": [
+      "storage",
+      "tabs",
+      "activeTab",
+      "scripting"
+  ],
+  "background": {
+      "service_worker": "background.js"
+  },
+  "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+  },
+  "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+  },
+  "host_permissions": [
+      "http://*/*",
+      "https://*/*"
+  ]
+}
