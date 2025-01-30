@@ -38,7 +38,7 @@ function runOyeClicker() {
         // After clicking, we will close the tab
         setTimeout(() => {
           chrome.tabs.remove(tab.id);  // Close the tab after the click action
-        }, 5000);  // Wait for 5 seconds before closing the tab (you can adjust this)
+        }, 2000);  // Wait for 2 seconds before closing the tab (you can adjust this)
       });
     }, 2000);  // Reduced wait time to 2 seconds for faster page load
 
