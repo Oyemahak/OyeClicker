@@ -3,7 +3,8 @@
 ## Overview
 Oye Clicker is a lightweight Chrome extension that automates clicks on web pages. Whether you need to streamline repetitive tasks, test website interactions, or just have some fun, this tool makes clicking effortless! 😎
 
-> **For learning purposes only.** Please use responsibly and avoid any harmful or unethical applications.
+## Project Status  
+🚧 **In Progress** – Actively refining features and exploring new use cases. Stay tuned for updates! 
 
 ## Features
 ✅ **Auto-clicking** – Click on specific elements automatically.
@@ -33,3 +34,4 @@ startAutoClicking('button.buy-now', 1500); // Click every 1.5 seconds
 
 ---
 ⚠️ **Disclaimer:** This extension is for educational purposes only. Please do not use it for spam, botting, or violating any website policies.
+> **For learning purposes only.** Please use responsibly and avoid any harmful or unethical applications.
