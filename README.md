@@ -1,34 +1,35 @@
-# Oye Clicker
+# Oye Clicker 🚀
 
 ## Overview
-**Oye Clicker** is an automated browser extension designed to simulate clicks on web pages. The extension allows users to automate the clicking of elements on specific web pages, such as search results or buttons. It is especially useful for performing repetitive tasks such as raising SEO visibility or clicking links for data scraping purposes. This extension is customizable, with options to start, pause, resume, and stop the auto-clicking process.
+Oye Clicker is a lightweight Chrome extension that automates clicks on web pages. Whether you need to streamline repetitive tasks, test website interactions, or just have some fun, this tool makes clicking effortless! 😎
 
-Developed by Mahak Patel. All rights reserved.
+> **For learning purposes only.** Please use responsibly and avoid any harmful or unethical applications.
 
 ## Features
-- **Auto-clicking:** Automatically clicks on specified elements (such as search results) at a set interval.
-- **Start, Pause, and Resume:** Users can control the auto-clicker by starting, pausing, or resuming the process.
-- **Tab Management:** Open new tabs for the clicks and close them after the task is complete.
-- **Customizable Interval:** Set the interval for clicks, allowing for faster or slower automation.
-- **Lightweight and Easy to Use:** The extension runs in the background and is simple to control via the popup interface.
+✅ **Auto-clicking** – Click on specific elements automatically.
+✅ **Start, Pause, Stop** – Full control over when clicking happens.
+✅ **Custom Timing** – Set your own interval between clicks.
+✅ **Simple & Lightweight** – Easy to install and use.
 
 ## Installation
-
 1. Download the extension files.
-2. Open Chrome browser and navigate to `chrome://extensions/`.
-3. Enable **Developer mode** in the top right corner.
-4. Click **Load unpacked** and select the folder containing the extension files.
-5. The extension will be added to your browser, and you can use it from the extensions toolbar.
+2. Open Chrome and go to `chrome://extensions/`.
+3. Enable **Developer mode** (top right corner).
+4. Click **Load unpacked** and select the extension folder.
+5. Boom! 🎉 It's ready to use!
 
 ## Usage
+1. Click the **Oye Clicker** icon in your browser toolbar.
+2. Use the buttons to **Start, Pause, or Stop** auto-clicking.
+3. Customize click intervals as needed.
 
-- Once installed, click on the **Oye Clicker** icon in the browser toolbar.
-- You will see buttons for **Start**, **Pause**, and **Stop** in the popup.
-- **Start**: Begins the auto-clicking process.
-- **Pause**: Pauses the auto-clicking process (you can resume later).
-- **Stop**: Stops the auto-clicking process entirely.
-
-### Example Use Case:
-You can set the auto-clicker to click on search results for specific queries every 2 seconds, such as:
+## Example Use Case
 ```javascript
-startAutoClicking('a[href*="ontariovirtualschool.ca"]', 2000);  // Click every 2 seconds
+startAutoClicking('button.buy-now', 1500); // Click every 1.5 seconds
+```
+
+## Credits
+💡 Developed by **Mahak Patel** with the help of **ChatGPT** for logic development. Special thanks to AI for making coding a bit more fun! 😃
+
+---
+⚠️ **Disclaimer:** This extension is for educational purposes only. Please do not use it for spam, botting, or violating any website policies.
